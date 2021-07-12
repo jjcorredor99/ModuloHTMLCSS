@@ -1,0 +1,75 @@
+/* comentarios */
+/*clase/etiqueta {
+    estilo_a_aplicar: propiedad_del_estilo;
+}
+*/
+
+/* estilos generales --> se comentan con * (todo lo que existe)*/
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.76);
+  text-align: center;
+  color: white;
+}
+
+.tit_1 {
+  font-size: 90px;
+  color: whitesmoke;
+  padding: 15px;
+  background-color: black;
+  opacity: 0.3;
+  position: relative;
+  
+ display: inline-block;
+}
+
+.tit_2 {
+  font-size: 90px;
+  color: whitesmoke;
+  padding: 15px;
+ position: relative;
+ display: inline-block;
+ margin-top: 70px;
+}
+
+.button1 {
+  color: whitesmoke;
+  background-color: rgb(32, 197, 32);
+  padding: 10px;
+  border: 0;
+  border-radius: 30px;
+  margin: 20px;
+  font-size: 30px;
+}
+.header {
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  padding: 5px;
+}
+section {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.76);
+  color: whitesmoke;
+
+  padding: 10px;
+}
+
+.bg-header {
+  background-image: url("../burguer-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* cover para que se ajuste el ancho*/
+  background-position-y: -300px;
+}
