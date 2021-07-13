@@ -8,13 +8,12 @@
 
 * {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-
+  background-color: rgba(0, 0, 0, 0.76);
   margin: 0px;
   padding: 0px;
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.76);
   text-align: center;
   color: white;
 }
@@ -26,17 +25,17 @@ nav {
   background-color: black;
   opacity: 0.3;
   position: relative;
-  
- display: inline-block;
+
+  display: inline-block;
 }
 
 .tit_2 {
   font-size: 90px;
   color: whitesmoke;
   padding: 15px;
- position: relative;
- display: inline-block;
- margin-top: 70px;
+  position: relative;
+  display: inline-block;
+  margin-top: 70px;
 }
 
 .button1 {
@@ -60,7 +59,7 @@ p {
 }
 section {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.76);
+  
   color: whitesmoke;
 
   padding: 10px;
@@ -72,4 +71,25 @@ section {
   background-size: cover;
   /* cover para que se ajuste el ancho*/
   background-position-y: -300px;
+}
+
+/*imagenes*/
+
+.img-size {
+  width: 300px;
+  padding: 10px;
+}
+
+.cards-section {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
