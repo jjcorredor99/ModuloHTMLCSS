@@ -1,0 +1,105 @@
+/*Estilos generals*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*Color titulo*/
+.header-color{
+    color: rgb(12,47,223);
+    text-align: center;
+}
+
+/*imagen de fondo*/
+.bg-naruto{
+    background-image: url("../img/Naruto_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*contenedor formulario*/
+
+
+.screen-form{
+    position: relative;
+}
+
+.bg-white{
+
+    background-color: white;
+    box-shadow: 0px 5px 5px 5px black ;
+    
+    
+    
+}
+
+.form-container{
+
+
+    padding: 3rem 2rem 3rem 2rem;
+
+    width: 400px;
+
+
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+/*contenedor de inputs*/
+
+.div-container{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-container input{
+    border-radius: 0.4rem;
+    border: solid 0.1rem grey;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+
+.check-container{
+    margin-top: 0.7rem;
+
+}
+
+/*estilos de botones*/
+
+.btn-login {
+    margin-top: 1rem;
+    
+    display:flex ;
+    justify-content: center;
+}
+
+
+.btn-login button{
+    padding: 0.5rem;
+    background-color: #ff4400;
+    color: white;
+    border: 0;
+    border-radius: 0.3rem;
+    transition: background-color 0,2s;
+}
+.btn-login button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*alineación formulario*/
+
+.screen-form{
+    display: flex;
+    justify-content: right;
+    margin-right: 40px;
+    margin-top: 300px;
+    
+}
