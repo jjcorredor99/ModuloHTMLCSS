@@ -93,3 +93,11 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border: solid 300px;
+  border-color: white transparent white transparent;
+}
