@@ -13,7 +13,7 @@
 
 /*imagen de fondo*/
 .bg-naruto{
-    background-image: url("../img/Naruto_wallpaper.jpg");
+    background-image: url("../img/sasuke_wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -57,6 +57,11 @@
     display: flex;
     flex-direction: column;
 }
+.title-sex{
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
 
 .div-container input{
     border-radius: 0.4rem;
@@ -64,7 +69,21 @@
     padding: 0.4rem;
     margin-top: 0.2rem;
 }
+.genero{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
 
+}
+.genero label{
+    padding: 2px;
+}
+.radius{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3px;
+    
+}
 
 .check-container{
     margin-top: 0.7rem;
@@ -83,7 +102,7 @@
 
 .btn-login button{
     padding: 0.5rem;
-    background-color: #ff4400;
+    background-color: rgb(30,48,84);
     color: white;
     border: 0;
     border-radius: 0.3rem;
@@ -98,8 +117,8 @@
 
 .screen-form{
     display: flex;
-    justify-content: right;
-    margin-right: 40px;
-    margin-top: 300px;
+    justify-content: left;
+    margin-top: 50px;
+    margin-left: 40px;
     
 }
